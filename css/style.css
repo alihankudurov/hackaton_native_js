@@ -1,0 +1,90 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+}
+.navbar__left_content{
+    display: flex;
+}
+.navbar__logo{
+    width: 200px;
+}
+.navbar__left-content_a{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+.navbar__a{
+    text-decoration: none;
+    color: #fff;
+    margin: 30px 30px;
+    font-size: 20px;
+}
+.navbar__right_content{
+    margin-right: 10px;
+}
+.search__inp{
+    border: none;
+    height: 35px;
+}
+.search__btn{
+    border: none;
+    height: 35px;
+    width: 90px;
+    background-color: #fff;
+    margin: -1px;
+}
+.search__btn:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+.about_content{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 9, 7);
+    height: 550px;
+}
+.about__txt{
+    margin-top: 150px;
+    color: #fff;
+}
+.about__span{
+    margin-top: 30px;
+}
+.corusel__content{
+    width: 380px;
+    height: 450px;
+}
+.main{
+    background-color: rgb(12, 12, 12);
+}
+.card {
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(43, 43, 43);
+    color: #fff;
+    height: 350px;
+  }
+#cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px 30px;
+}
+#render{
+    border: none;
+    width: 190px;
+    height: 40px;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
